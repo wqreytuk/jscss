@@ -27,14 +27,60 @@ for (let aaa11i = 0; aaa11i < biaogemens.length; aaa11i++)
 
 setInterval(function () {
     let itsdsdsdem = document.getElementsByTagName("a");
-  for (let indessssx = 0; indessssx < itsdsdsdem.length; indessssx++) {
-    if( itsdsdsdem[indessssx].innerHTML.indexOf("站长统计")==-1) continue;
-	  itsdsdsdem[indessssx].innerHTML = itsdsdsdem[indessssx].innerHTML.replace("站长统计",`<font color="#f5f5f5">1111</font>`);
-  }
-  
-  
-  
-  
+	for (let indessssx = 0; indessssx < itsdsdsdem.length; indessssx++) {
+		if( itsdsdsdem[indessssx].innerHTML.indexOf("站长统计")==-1) 
+			continue;
+		itsdsdsdem[indessssx].innerHTML = itsdsdsdem[indessssx].innerHTML.replace("站长统计",`<font color="#f5f5f5">1111</font>`);
+	}
+	//设置导航栏等间距
+	$leftOffset = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header");
+
+	$parent = $("body > div.navbar.navbar-default.navbar-fixed-top");
+
+	$archive = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(1)");
+
+	$dmsj = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(2)");
+
+	$jsjwl = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(3)");
+
+	$kf = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(4)");
+
+	$ldfx = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(5)");
+
+	$nwaq = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(6)");
+
+	$nx = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(7)");
+
+	$webaq = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(8)");
+
+	$zw = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(9)");
+
+	$marginvalue = ($parent.width() - $archive.offset().left - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left)/16;
+
+	$archive.css("marginRight", $marginvalue);
+
+	$dmsj.css("marginLeft", $marginvalue);
+	$dmsj.css("marginRight", $marginvalue);
+
+	$jsjwl.css("marginLeft", $marginvalue);
+	$jsjwl.css("marginRight", $marginvalue);
+
+	$kf.css("marginLeft", $marginvalue);
+	$kf.css("marginRight", $marginvalue);
+
+	$ldfx.css("marginLeft", $marginvalue);
+	$ldfx.css("marginRight", $marginvalue);
+
+	$nwaq.css("marginLeft", $marginvalue);
+	$nwaq.css("marginRight", $marginvalue);
+
+	$nx.css("marginLeft", $marginvalue);
+	$nx.css("marginRight", $marginvalue);
+
+	$webaq.css("marginLeft", $marginvalue);
+	$webaq.css("marginRight", $marginvalue);
+
+	$zw.css("marginLeft", $marginvalue);
 }, 1000);
 
 
