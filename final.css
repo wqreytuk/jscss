@@ -1,0 +1,21 @@
+p code {
+    font-family: 'Source Code Pro','DejaVu Sans Mono','Ubuntu Mono','Anonymous Pro','Droid Sans Mono',Menlo,Monaco,Consolas,Inconsolata,Courier,'PingFang SC','Microsoft YaHei',sans-serif!important;
+	white-space:normal;
+	word-wrap:break-word; 
+	word-break:break-all;
+	overflow: auto;
+	color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 2px;
+}
+
+ul li code {
+    font-family: 'Source Code Pro','DejaVu Sans Mono','Ubuntu Mono','Anonymous Pro','Droid Sans Mono',Menlo,Monaco,Consolas,Inconsolata,Courier,'PingFang SC','Microsoft YaHei',sans-serif!important;
+	white-space:normal;
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow: auto;
+	color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 2px;
+} 
