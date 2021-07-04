@@ -55,8 +55,11 @@ setInterval(function () {
 
 	$zw = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(9)");
 
-	$marginvalue = ($parent.width() - $archive.offset().left - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left)/16;
+	$marginvalue = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width())/18;
 
+	$leftOffset.css("marginRigtht", $marginvalue);
+
+	$archive.css("marginLeft", $marginvalue);
 	$archive.css("marginRight", $marginvalue);
 
 	$dmsj.css("marginLeft", $marginvalue);
