@@ -55,6 +55,8 @@ setInterval(function () {
 
 	$zw = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(9)");
 
+	$zw.css('padding-right',0);
+
 	$marginvalue = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width())/18;
 
 	$leftOffset.css("marginRigtht", $marginvalue);
@@ -84,6 +86,7 @@ setInterval(function () {
 	$webaq.css("marginRight", $marginvalue);
 
 	$zw.css("marginLeft", $marginvalue);
+	$zw.css("marginRight", 0);
 }, 1000);
 
 
