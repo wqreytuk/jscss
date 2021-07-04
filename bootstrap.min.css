@@ -14,7 +14,7 @@
 
 	article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 		display: block;
-		padding: 10px 0px 0px 0px;
+		padding: 3px 0px 0px 0px;
 	}
 
 	audio,canvas,progress,video {
@@ -1475,7 +1475,7 @@
 	.h1,h1 {
 		font-size: 34px;
 		font-weight: bold;
-		color: red;
+		color: #000;
 	}
 
 	.h2,h2 {
@@ -1502,7 +1502,7 @@
 
 	p {
 		margin: 0 0 10px;
-		color: #ffffff;
+		color: #333;
 	}
 
 	.lead {
