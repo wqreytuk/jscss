@@ -9,7 +9,19 @@ let item = document.getElementsByTagName("img");
 
 if (str.indexOf("http://penhub.space") != -1) 
 {
-    window.location.href = str.replace("http://penhub.space", "https://penhub.space");
+    alert("网站已迁移至144.one,2s后跳转");
+	function hello(){ 
+		window.location = "https://144.one"
+	} 
+	window.setTimeout(hello,2000);
+}
+if (str.indexOf("https://penhub.space") != -1) 
+{
+    alert("网站已迁移至https://144.one,2s后跳转");
+	function hello(){ 
+		window.location = "https://144.one"
+	} 
+	window.setTimeout(hello,2000);
 }
 
 if (str.indexOf("144.34.164.217") != -1) 
@@ -57,36 +69,40 @@ setInterval(function () {
 
 	$zw.css('padding-right',0);
 
-	$marginvalue = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width())/18;
+	$check = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width());
+	
+	if($check>=0) {
+		$marginvalue = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width())/18;
 
-	$leftOffset.css("marginRigtht", $marginvalue);
+		$leftOffset.css("marginRigtht", $marginvalue);
 
-	$archive.css("marginLeft", $marginvalue);
-	$archive.css("marginRight", $marginvalue);
+		$archive.css("marginLeft", $marginvalue);
+		$archive.css("marginRight", $marginvalue);
 
-	$dmsj.css("marginLeft", $marginvalue);
-	$dmsj.css("marginRight", $marginvalue);
+		$dmsj.css("marginLeft", $marginvalue);
+		$dmsj.css("marginRight", $marginvalue);
 
-	$jsjwl.css("marginLeft", $marginvalue);
-	$jsjwl.css("marginRight", $marginvalue);
+		$jsjwl.css("marginLeft", $marginvalue);
+		$jsjwl.css("marginRight", $marginvalue);
 
-	$kf.css("marginLeft", $marginvalue);
-	$kf.css("marginRight", $marginvalue);
+		$kf.css("marginLeft", $marginvalue);
+		$kf.css("marginRight", $marginvalue);
 
-	$ldfx.css("marginLeft", $marginvalue);
-	$ldfx.css("marginRight", $marginvalue);
+		$ldfx.css("marginLeft", $marginvalue);
+		$ldfx.css("marginRight", $marginvalue);
 
-	$nwaq.css("marginLeft", $marginvalue);
-	$nwaq.css("marginRight", $marginvalue);
+		$nwaq.css("marginLeft", $marginvalue);
+		$nwaq.css("marginRight", $marginvalue);
 
-	$nx.css("marginLeft", $marginvalue);
-	$nx.css("marginRight", $marginvalue);
+		$nx.css("marginLeft", $marginvalue);
+		$nx.css("marginRight", $marginvalue);
 
-	$webaq.css("marginLeft", $marginvalue);
-	$webaq.css("marginRight", $marginvalue);
+		$webaq.css("marginLeft", $marginvalue);
+		$webaq.css("marginRight", $marginvalue);
 
-	$zw.css("marginLeft", $marginvalue);
-	$zw.css("marginRight", 0);
+		$zw.css("marginLeft", $marginvalue);
+		$zw.css("marginRight", 0);
+	}
 }, 1000);
 
 
