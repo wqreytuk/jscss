@@ -51,64 +51,77 @@ setInterval(function () {
 		itsdsdsdem[indessssx].innerHTML = itsdsdsdem[indessssx].innerHTML.replace("站长统计",`<font color="#f5f5f5">1111</font>`);
 	}
 	//设置导航栏等间距
-	$leftOffset = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header");
+	// $leftOffset = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.navbar-header");
 
-	$parent = $("body > div.navbar.navbar-default.navbar-fixed-top");
+	// $parent = $("body > div.navbar.navbar-default.navbar-fixed-top");
 
-	$archive = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(1)");
+	// $archive = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(1)");
 
-	$dmsj = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(2)");
+	// $dmsj = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(2)");
 
-	$jsjwl = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(3)");
+	// $jsjwl = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(3)");
 
-	$kf = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(4)");
+	// $kf = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(4)");
 
-	$ldfx = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(5)");
+	// $ldfx = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(5)");
 
-	$nwaq = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(6)");
+	// $nwaq = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(6)");
 
-	$nx = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(7)");
+	// $nx = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(7)");
 
-	$webaq = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(8)");
+	// $webaq = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(8)");
 
-	$zw = $("body > div.navbar.navbar-default.navbar-fixed-top > div > div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(9)");
+	// $zw = $("body > div.navbar.navbar-default.navbar-fixed-top > div > 
+// div.collapse.navbar-collapse.navbar-ex1-collapse > ul:nth-child(1) > li:nth-child(9)");
 
-	$zw.css('padding-right',0);
+	// $zw.css('padding-right',0);
 
-	$chssseck = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width());
+	// $chssseck = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() -
+ // $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset
+// ().left - $leftOffset.offset().left - $leftOffset.width());
 	
-	if($chssseck>=0 && window.mobileCheck()==false) {
-		$marginvalue = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width())/18;
+	// if($chssseck>=0 && window.mobileCheck()==false) {
+		// $marginvalue = ($parent.width() - $archive.width() - $dmsj.width() - $jsjwl.width() - $kf.
+// width() - $ldfx.width() - $nwaq.width() - $nx.width() - $webaq.width() - $zw.width() - 
+// $leftOffset.offset().left - $leftOffset.offset().left - $leftOffset.width())/18;
 
-		$leftOffset.css("marginRigtht", $marginvalue);
+		// $leftOffset.css("marginRigtht", $marginvalue);
 
-		$archive.css("marginLeft", $marginvalue);
-		$archive.css("marginRight", $marginvalue);
+		// $archive.css("marginLeft", $marginvalue);
+		// $archive.css("marginRight", $marginvalue);
 
-		$dmsj.css("marginLeft", $marginvalue);
-		$dmsj.css("marginRight", $marginvalue);
+		// $dmsj.css("marginLeft", $marginvalue);
+		// $dmsj.css("marginRight", $marginvalue);
 
-		$jsjwl.css("marginLeft", $marginvalue);
-		$jsjwl.css("marginRight", $marginvalue);
+		// $jsjwl.css("marginLeft", $marginvalue);
+		// $jsjwl.css("marginRight", $marginvalue);
 
-		$kf.css("marginLeft", $marginvalue);
-		$kf.css("marginRight", $marginvalue);
+		// $kf.css("marginLeft", $marginvalue);
+		// $kf.css("marginRight", $marginvalue);
 
-		$ldfx.css("marginLeft", $marginvalue);
-		$ldfx.css("marginRight", $marginvalue);
+		// $ldfx.css("marginLeft", $marginvalue);
+		// $ldfx.css("marginRight", $marginvalue);
 
-		$nwaq.css("marginLeft", $marginvalue);
-		$nwaq.css("marginRight", $marginvalue);
+		// $nwaq.css("marginLeft", $marginvalue);
+		// $nwaq.css("marginRight", $marginvalue);
 
-		$nx.css("marginLeft", $marginvalue);
-		$nx.css("marginRight", $marginvalue);
+		// $nx.css("marginLeft", $marginvalue);
+		// $nx.css("marginRight", $marginvalue);
 
-		$webaq.css("marginLeft", $marginvalue);
-		$webaq.css("marginRight", $marginvalue);
+		// $webaq.css("marginLeft", $marginvalue);
+		// $webaq.css("marginRight", $marginvalue);
 
-		$zw.css("marginLeft", $marginvalue);
-		$zw.css("marginRight", 0);
-	}
+		// $zw.css("marginLeft", $marginvalue);
+		// $zw.css("marginRight", 0);
+	// }
 }, 1000);
 
 
