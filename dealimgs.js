@@ -10,12 +10,12 @@ let item = document.getElementsByTagName("img");
 if (str.indexOf("http://penhub.space") != -1) 
 {
 	alert("网站已迁移至https://144.one，点击确定以跳转")
-    window.location.href = str.replace("http://penhub.space", "https://penhub.space");
+    window.location.href = str.replace("http://penhub.space", "https://144.one");
 }
 if (str.indexOf("https://penhub.space") != -1) 
 {
 	alert("网站已迁移至https://144.one，点击确定以跳转")
-    window.location.href = str.replace("http://penhub.space", "https://penhub.space");
+    window.location.href = str.replace("http://penhub.space", "https://144.one");
 }
 
 if (str.indexOf("144.34.164.217") != -1) 
