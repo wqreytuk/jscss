@@ -7,15 +7,25 @@ let item = document.getElementsByTagName("img");
   
   var str = window.location.href;
 
-if (str.indexOf("http://penhub.space") != -1) 
+if (str.indexOf("http://www.penhub.space") != -1)
 {
-	alert("网站已迁移至https://144.one，点击确定以跳转")
+                alert("网站已迁移至https://144.one，点击确定以跳转")
+            window.location.href = str.replace("http://www.penhub.space", "https://144.one");
+}
+if (str.indexOf("https://www.penhub.space") != -1)
+{
+                alert("网站已迁移至https://144.one，点击确定以跳转")
+            window.location.href = str.replace("https://www.penhub.space", "https://144.one");
+}
+if (str.indexOf("http://penhub.space") != -1)
+{
+        alert("网站已迁移至https://144.one，点击确定以跳转")
     window.location.href = str.replace("http://penhub.space", "https://144.one");
 }
-if (str.indexOf("https://penhub.space") != -1) 
+if (str.indexOf("https://penhub.space") != -1)
 {
-	alert("网站已迁移至https://144.one，点击确定以跳转")
-    window.location.href = str.replace("http://penhub.space", "https://144.one");
+        alert("网站已迁移至https://144.one，点击确定以跳转")
+    window.location.href = str.replace("https://penhub.space", "https://144.one");
 }
 
 if (str.indexOf("144.34.164.217") != -1) 
