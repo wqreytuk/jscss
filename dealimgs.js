@@ -45,7 +45,7 @@ setInterval(function () {
     let itsdsdsdem = document.getElementsByTagName("a");
   for (let indessssx = 0; indessssx < itsdsdsdem.length; indessssx++) {
     if( itsdsdsdem[indessssx].innerHTML.indexOf("站长统计")==-1) continue;
-	  itsdsdsdem[indessssx].innerHTML = itsdsdsdem[indessssx].innerHTML.replace("站长统计",`<font color="#f5f5f5">1111</font>`);
+	  itsdsdsdem[indessssx].innerHTML = itsdsdsdem[indessssx].innerHTML.replace("站长统计",`<font color="#f5f5f5"></font>`);
   }
   
   
