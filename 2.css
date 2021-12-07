@@ -17,6 +17,9 @@ img {
 footer {
 	margin-top: 2rem
 }
+.post-info {
+	margin-top: 0rem !important;
+}
 a:link, a:visited {
     color: #4183c4;
     text-decoration: none;
