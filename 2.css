@@ -26,7 +26,7 @@ a:link, a:visited {
     word-break: break-word;
 }
 #gitalk-container {
-	background-color: #fff
+	/* background-color: #fff */
 }
 body {
     margin: 0;
