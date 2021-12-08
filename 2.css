@@ -25,7 +25,9 @@ a:link, a:visited {
     text-decoration: none;
     word-break: break-word;
 }
-
+#gitalk-container {
+	background-color: #fff
+}
 body {
     margin: 0;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
