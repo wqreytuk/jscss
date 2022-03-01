@@ -1457,6 +1457,8 @@
 	.h1,.h2,.h3,h1,h2,h3 {
 		margin-top: 20px;
 		margin-bottom: 20px;
+		padding-bottom: 0.5em;
+		border-bottom: 1px solid #ddd;
 	}
 
 	.h1 .small,.h1 small,.h2 .small,.h2 small,.h3 .small,.h3 small,h1 .small,h1 small,h2 .small,h2 small,h3 .small,h3 small {
