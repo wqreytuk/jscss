@@ -32,6 +32,10 @@ if (str.indexOf("144.34.164.217") != -1)
 {
     /*var strrrr =*/
     window.location.href = str.replace("http://144.34.164.217", "https://144.one");
+}if (str.indexOf("http://144.one") != -1) 
+{
+    /*var strrrr =*/
+    window.location.href = str.replace("http://144.one", "https://144.one");
 }
 
 //处理表格
